@@ -1,0 +1,17 @@
+POST http://localhost:4000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "Tran Dung",
+    "email": "trandung@gmail.com",
+    "password": "Trandung2001@"
+}
+
+###
+POST http://localhost:4000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "trandung@gmail.com",
+    "password": "Trandung2001@"
+}
